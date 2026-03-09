@@ -26,6 +26,7 @@ body{background:var(--jade);color:var(--white);font-family:'Nunito Sans',sans-se
 ::-webkit-scrollbar{width:3px}
 ::-webkit-scrollbar-track{background:var(--jade)}
 ::-webkit-scrollbar-thumb{background:var(--champ-dim)}
+
 /* ── SHIMMER PATTERN ── */
 body::before{
   content:'';position:fixed;inset:0;
@@ -39,6 +40,7 @@ body::before{
   background-image:linear-gradient(rgba(232,201,122,.03) 1px,transparent 1px),
     linear-gradient(90deg,rgba(232,201,122,.03) 1px,transparent 1px);
   background-size:60px 60px}
+
 /* ══════════════════ NAV ══════════════════ */
 nav{position:fixed;top:0;left:0;right:0;z-index:999;height:70px;
   display:flex;align-items:center;justify-content:space-between;padding:0 60px;
@@ -73,6 +75,7 @@ nav::after{content:'';position:absolute;bottom:0;left:0;right:0;height:1px;
   letter-spacing:2px;text-transform:uppercase;color:var(--muted);text-decoration:none;
   border-bottom:1px solid rgba(232,201,122,.05);transition:all .3s}
 .mobile-nav ul li a:hover{color:var(--champagne);background:rgba(232,201,122,.04);padding-left:38px}
+
 /* ══════════════════ HERO ══════════════════ */
 #home{min-height:100vh;display:flex;align-items:center;padding:120px 60px 80px;
   position:relative;overflow:hidden;z-index:1}
@@ -85,6 +88,7 @@ nav::after{content:'';position:absolute;bottom:0;left:0;right:0;height:1px;
   font-style:italic;color:rgba(232,201,122,.025);white-space:nowrap;pointer-events:none;user-select:none;letter-spacing:8px}
 .hero-inner{max-width:1200px;margin:0 auto;width:100%;position:relative;z-index:2}
 .hero-grid{display:grid;grid-template-columns:1fr 380px;gap:80px;align-items:center}
+
 /* Hero left */
 .hero-tag-row{display:flex;align-items:center;gap:12px;margin-bottom:24px}
 .live-dot{width:7px;height:7px;background:var(--emerald);border-radius:50%;
@@ -123,6 +127,7 @@ nav::after{content:'';position:absolute;bottom:0;left:0;right:0;height:1px;
 .hstat-n{font-family:'Playfair Display',serif;font-size:36px;font-style:italic;color:var(--champagne);line-height:1}
 .hstat-l{font-family:'Fira Code',monospace;font-size:8px;letter-spacing:2px;text-transform:uppercase;color:var(--muted-dark)}
 .hstat-div{width:1px;background:rgba(255,255,255,.08);align-self:stretch;margin:4px 0}
+
 /* Hero profile card */
 .profile-card{background:var(--jade-glass);border:1px solid rgba(232,201,122,.15);
   padding:36px 28px;position:relative;overflow:hidden;backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);
