@@ -26,7 +26,6 @@ body{background:var(--jade);color:var(--white);font-family:'Nunito Sans',sans-se
 ::-webkit-scrollbar{width:3px}
 ::-webkit-scrollbar-track{background:var(--jade)}
 ::-webkit-scrollbar-thumb{background:var(--champ-dim)}
-
 /* ── SHIMMER PATTERN ── */
 body::before{
   content:'';position:fixed;inset:0;
@@ -40,7 +39,6 @@ body::before{
   background-image:linear-gradient(rgba(232,201,122,.03) 1px,transparent 1px),
     linear-gradient(90deg,rgba(232,201,122,.03) 1px,transparent 1px);
   background-size:60px 60px}
-
 /* ══════════════════ NAV ══════════════════ */
 nav{position:fixed;top:0;left:0;right:0;z-index:999;height:70px;
   display:flex;align-items:center;justify-content:space-between;padding:0 60px;
@@ -75,7 +73,6 @@ nav::after{content:'';position:absolute;bottom:0;left:0;right:0;height:1px;
   letter-spacing:2px;text-transform:uppercase;color:var(--muted);text-decoration:none;
   border-bottom:1px solid rgba(232,201,122,.05);transition:all .3s}
 .mobile-nav ul li a:hover{color:var(--champagne);background:rgba(232,201,122,.04);padding-left:38px}
-
 /* ══════════════════ HERO ══════════════════ */
 #home{min-height:100vh;display:flex;align-items:center;padding:120px 60px 80px;
   position:relative;overflow:hidden;z-index:1}
@@ -157,7 +154,6 @@ nav::after{content:'';position:absolute;bottom:0;left:0;right:0;height:1px;
   box-shadow:0 0 8px var(--emerald);animation:pulse-dot 2s ease-in-out infinite}
 .pc-avail-text{font-family:'Fira Code',monospace;font-size:8px;letter-spacing:1.5px;
   text-transform:uppercase;color:var(--emerald)}
-
 /* ══════════════════ SECTIONS ══════════════════ */
 .sec{padding:110px 60px;position:relative;z-index:1}
 .sec-jade{background:var(--jade-mid)}.sec-card{background:var(--jade-card)}
@@ -347,7 +343,6 @@ footer{background:var(--ink);border-top:1px solid rgba(232,201,122,.1);padding:3
 <body>
 <div class="grid-bg"></div>
 <div class="toast" id="toast"></div>
-
 <!-- NAV -->
 <nav>
   <a href="#home" class="nav-brand">Sattar Ahmed</a>
