@@ -1,0 +1,20 @@
+[
+  {
+    "code": "99213",
+    "title": "Established Patient Office Visit",
+    "description": "Moderate complexity outpatient evaluation and management service.",
+    "keywords": ["office", "evaluation", "follow-up", "cpt"]
+  },
+  {
+    "code": "93000",
+    "title": "Electrocardiogram Complete",
+    "description": "Routine ECG with interpretation and report.",
+    "keywords": ["cardiology", "diagnostic", "ecg", "cpt"]
+  },
+  {
+    "code": "36415",
+    "title": "Collection of Venous Blood",
+    "description": "Blood draw performed by venipuncture.",
+    "keywords": ["lab", "venipuncture", "collection", "cpt"]
+  }
+]
