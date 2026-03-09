@@ -88,7 +88,6 @@ nav::after{content:'';position:absolute;bottom:0;left:0;right:0;height:1px;
   font-style:italic;color:rgba(232,201,122,.025);white-space:nowrap;pointer-events:none;user-select:none;letter-spacing:8px}
 .hero-inner{max-width:1200px;margin:0 auto;width:100%;position:relative;z-index:2}
 .hero-grid{display:grid;grid-template-columns:1fr 380px;gap:80px;align-items:center}
-
 /* Hero left */
 .hero-tag-row{display:flex;align-items:center;gap:12px;margin-bottom:24px}
 .live-dot{width:7px;height:7px;background:var(--emerald);border-radius:50%;
@@ -127,7 +126,6 @@ nav::after{content:'';position:absolute;bottom:0;left:0;right:0;height:1px;
 .hstat-n{font-family:'Playfair Display',serif;font-size:36px;font-style:italic;color:var(--champagne);line-height:1}
 .hstat-l{font-family:'Fira Code',monospace;font-size:8px;letter-spacing:2px;text-transform:uppercase;color:var(--muted-dark)}
 .hstat-div{width:1px;background:rgba(255,255,255,.08);align-self:stretch;margin:4px 0}
-
 /* Hero profile card */
 .profile-card{background:var(--jade-glass);border:1px solid rgba(232,201,122,.15);
   padding:36px 28px;position:relative;overflow:hidden;backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);
@@ -170,7 +168,6 @@ nav::after{content:'';position:absolute;bottom:0;left:0;right:0;height:1px;
 .sec-title{font-family:'Playfair Display',serif;font-size:clamp(32px,4.5vw,52px);font-weight:600;line-height:1.05;margin-bottom:56px}
 .sec-title em{color:var(--champagne);font-style:italic}
 .divider{width:100%;height:1px;background:linear-gradient(90deg,transparent,rgba(232,201,122,.15),transparent);z-index:1;position:relative}
-
 /* GLASS CARD BASE */
 .gcard{background:var(--jade-glass);border:1px solid rgba(232,201,122,.12);
   backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);
@@ -181,7 +178,6 @@ nav::after{content:'';position:absolute;bottom:0;left:0;right:0;height:1px;
 .gcard:hover::before{transform:scaleX(1)}
 .gcard:hover{border-color:rgba(232,201,122,.3);transform:translateY(-5px);
   box-shadow:0 24px 60px rgba(0,0,0,.4),0 0 40px rgba(232,201,122,.06)}
-
 /* ── ABOUT ── */
 .about-grid{display:grid;grid-template-columns:1.4fr 1fr;gap:60px;align-items:start}
 .about-text{font-size:15.5px;color:var(--off);line-height:1.9;margin-bottom:24px}
@@ -193,7 +189,6 @@ nav::after{content:'';position:absolute;bottom:0;left:0;right:0;height:1px;
   font-size:13.5px;color:var(--off);transition:all .3s;cursor:default}
 .expertise-list li::before{content:'▸';color:var(--champagne);font-size:10px;flex-shrink:0}
 .expertise-list li:hover{border-color:rgba(232,201,122,.25);background:rgba(232,201,122,.04);color:var(--champagne);padding-left:22px}
-
 /* ── SKILLS CARDS ── */
 .skills-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:rgba(232,201,122,.07)}
 .skill-card{background:var(--jade-mid);padding:36px 28px;position:relative;overflow:hidden;transition:background .35s}
@@ -208,14 +203,12 @@ nav::after{content:'';position:absolute;bottom:0;left:0;right:0;height:1px;
 .skill-bar-fill{height:100%;background:linear-gradient(90deg,var(--champ-dim),var(--champagne));
   width:0;transition:width 1.8s cubic-bezier(.16,1,.3,1)}
 .skill-pct{font-family:'Fira Code',monospace;font-size:9px;color:var(--champagne);margin-top:6px}
-
 /* ── KNOWLEDGE HUB ── */
 .kb-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
 .kb-card{padding:34px 30px}
 .kb-card-ico{font-size:28px;margin-bottom:14px;display:block}
 .kb-card-h{font-family:'Playfair Display',serif;font-size:20px;font-weight:600;margin-bottom:10px}
 .kb-card p{font-size:13.5px;color:var(--muted);line-height:1.75}
-
 /* ── SEARCH TOOL ── */
 .search-wrap{padding:40px 36px;max-width:680px;margin:0 auto}
 .search-label{font-family:'Fira Code',monospace;font-size:9px;letter-spacing:2px;
@@ -238,7 +231,6 @@ nav::after{content:'';position:absolute;bottom:0;left:0;right:0;height:1px;
 .result-desc{font-size:13px;color:var(--off);line-height:1.55}
 .result-empty{font-family:'Fira Code',monospace;font-size:11px;color:var(--muted);letter-spacing:1px;
   text-align:center;padding:20px;border:1px dashed rgba(232,201,122,.15)}
-
 /* ── FAQ ── */
 .faq-list{display:flex;flex-direction:column;gap:8px;max-width:800px}
 .faq-item{border:1px solid rgba(232,201,122,.12);background:var(--jade-glass);
@@ -255,7 +247,6 @@ nav::after{content:'';position:absolute;bottom:0;left:0;right:0;height:1px;
 .faq-item.open .faq-a{max-height:200px}
 .faq-a-inner{padding:0 24px 20px;font-size:14px;color:var(--muted);line-height:1.8;
   border-top:1px solid rgba(232,201,122,.08)}
-
 /* ── PORTFOLIO ── */
 .portfolio-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
 .port-card{padding:36px 28px}
@@ -265,7 +256,6 @@ nav::after{content:'';position:absolute;bottom:0;left:0;right:0;height:1px;
 .port-p{font-size:13.5px;color:var(--muted);line-height:1.7;margin-bottom:14px}
 .port-tech{font-family:'Fira Code',monospace;font-size:9px;letter-spacing:1px;
   color:var(--champ-dim);border-top:1px solid rgba(232,201,122,.1);padding-top:12px;margin-top:12px}
-
 /* ── CONTACT ── */
 .contact-layout{display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:start}
 .contact-hl{font-family:'Playfair Display',serif;font-size:clamp(28px,3.5vw,44px);line-height:1.15;margin-bottom:14px}
@@ -305,7 +295,6 @@ nav::after{content:'';position:absolute;bottom:0;left:0;right:0;height:1px;
 .btn-contact:hover{filter:brightness(1.12);transform:translateY(-2px);
   box-shadow:0 12px 30px rgba(232,201,122,.3);background-position:right}
 .btn-contact:disabled{opacity:.6;cursor:not-allowed;transform:none;box-shadow:none}
-
 /* TOAST */
 .toast{position:fixed;bottom:28px;right:28px;z-index:9999;padding:14px 24px;
   font-family:'Fira Code',monospace;font-size:10px;letter-spacing:1.5px;text-transform:uppercase;
@@ -313,7 +302,6 @@ nav::after{content:'';position:absolute;bottom:0;left:0;right:0;height:1px;
 .toast.show{transform:translateY(0);opacity:1}
 .toast.success{background:var(--emerald);color:#051a0a}
 .toast.error{background:#e05050;color:#fff}
-
 /* FOOTER */
 footer{background:var(--ink);border-top:1px solid rgba(232,201,122,.1);padding:32px 60px;position:relative;z-index:1}
 .footer-inner{max-width:1200px;margin:0 auto;display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap}
@@ -323,11 +311,9 @@ footer{background:var(--ink);border-top:1px solid rgba(232,201,122,.1);padding:3
   text-transform:uppercase;color:var(--muted-dark);text-decoration:none;transition:color .3s}
 .footer-links a:hover{color:var(--champagne)}
 .footer-copy{font-family:'Fira Code',monospace;font-size:9px;letter-spacing:1px;color:var(--muted-dark)}
-
 /* REVEAL */
 .rv{opacity:0;transform:translateY(22px);transition:opacity .7s ease,transform .7s ease}
 .rv.on{opacity:1;transform:translateY(0)}
-
 /* ═══ RESPONSIVE ═══ */
 @media(max-width:1100px){
   .hero-grid{grid-template-columns:1fr;gap:50px}
