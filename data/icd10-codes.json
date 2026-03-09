@@ -1,0 +1,20 @@
+[
+  {
+    "code": "E11.9",
+    "title": "Type 2 Diabetes Mellitus Without Complications",
+    "description": "Diabetes mellitus type 2 diagnosis used for routine coding.",
+    "keywords": ["diabetes", "endocrinology", "icd-10", "diagnosis"]
+  },
+  {
+    "code": "I10",
+    "title": "Essential (Primary) Hypertension",
+    "description": "High blood pressure diagnosis for uncomplicated hypertension.",
+    "keywords": ["hypertension", "blood pressure", "icd-10"]
+  },
+  {
+    "code": "J06.9",
+    "title": "Acute Upper Respiratory Infection, Unspecified",
+    "description": "Common upper respiratory tract infection diagnosis code.",
+    "keywords": ["respiratory", "infection", "icd-10", "uri"]
+  }
+]
