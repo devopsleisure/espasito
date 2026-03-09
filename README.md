@@ -34,7 +34,6 @@
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
-
       <section class="hero container">
         <div class="hero-image-wrapper">
           <img
@@ -60,7 +59,6 @@
         </div>
       </section>
     </header>
-
     <main>
       <section id="about" class="section container">
         <div class="section-heading">
@@ -86,7 +84,6 @@
           </ul>
         </div>
       </section>
-
       <section id="skills" class="section section-alt">
         <div class="container">
           <div class="section-heading">
@@ -127,7 +124,6 @@
           </div>
         </div>
       </section>
-
       <section id="knowledge-hub" class="section container">
         <div class="section-heading">
           <p class="eyebrow">Medical Billing Knowledge Hub</p>
@@ -164,7 +160,6 @@
           </article>
         </div>
       </section>
-
       <section id="search" class="section section-alt">
         <div class="container">
           <div class="section-heading">
@@ -185,7 +180,6 @@
           </div>
         </div>
       </section>
-
       <section id="faq" class="section container">
         <div class="section-heading">
           <p class="eyebrow">FAQ</p>
@@ -222,7 +216,6 @@
           </details>
         </div>
       </section>
-
       <section id="portfolio" class="section section-alt">
         <div class="container">
           <div class="section-heading">
@@ -257,7 +250,6 @@
           </div>
         </div>
       </section>
-
       <section id="contact" class="section container">
         <div class="section-heading">
           <p class="eyebrow">Contact</p>
@@ -276,13 +268,11 @@
         </div>
       </section>
     </main>
-
     <footer class="site-footer">
       <div class="container">
         <p>&copy; <span id="year"></span> Sattar Ahmed. All rights reserved.</p>
       </div>
     </footer>
-
     <script src="js/script.js"></script>
   </body>
 </html>
